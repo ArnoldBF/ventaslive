@@ -2,19 +2,22 @@
 <nav id="compactSidebar">
 <ul class="menu-categories">
 <li class="active">
-    <a href="#" class="menu-toggle"  data-active="true">
+    <a href="{{url('categories')}}" class="menu-toggle"  data-active="true">
        <div class="base-menu">
            <div class="base-icons">
             <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
            </div>
-
-           <span>CATEGORIAS</span>
+              
+           <span>CATEGORIAS
+               
+           </span>
 
        </div>
     </a>
+    
 </li>
 <li class="">
-    <a href="#" class="menu-toggle"  data-active="false">
+    <a href="{{url('products')}}" class="menu-toggle"  data-active="false">
        <div class="base-menu">
            <div class="base-icons">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
@@ -25,7 +28,7 @@
     </a>
 </li>
 <li class="">
-    <a href="#" class="menu-toggle"  data-active="false">
+    <a href="{{url('pos')}}" class="menu-toggle"  data-active="false">
        <div class="base-menu">
            <div class="base-icons">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
@@ -36,7 +39,7 @@
     </a>
 </li>
 <li class="">
-    <a href="#" class="menu-toggle"  data-active="false">
+    <a href="{{url('roles')}}" class="menu-toggle"  data-active="false">
        <div class="base-menu">
            <div class="base-icons">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
@@ -80,7 +83,7 @@
     </a>
 </li>
 <li class="">
-    <a href="#" class="menu-toggle"  data-active="false">
+    <a href="{{url('coins')}}" class="menu-toggle"  data-active="false">
        <div class="base-menu">
            <div class="base-icons">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
@@ -114,4 +117,7 @@
 </li>
 </ul>
 </nav>
+</div>
+<div id="compact_submenuSidebar" class="submenu-sidebar" style="display: none!important">
+    
 </div>

@@ -17,7 +17,7 @@ class CategorySeeder extends Seeder
         Category::create([
 
             'name'=>'CURSOS',
-            'image'=>
+            'image'=>'',
 
         ]);
     }

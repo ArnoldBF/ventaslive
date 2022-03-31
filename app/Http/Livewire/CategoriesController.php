@@ -54,7 +54,7 @@ class CategoriesController extends Component
 
          ];
          $messages=[
-              'name.required'=>'Normbe de la categoria es requerido',
+              'name.required'=>'Nombre de la categoria es requerido',
               'name.unique'=>'Ya existe el nombre de la categoria',
               'name.min'=>'El nombre de la categoria deber ser superios a 3 caracteres'
 

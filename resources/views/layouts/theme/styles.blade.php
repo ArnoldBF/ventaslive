@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/widgets/modules-widgets.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/css/forms/theme-checkbox-radio.css')}}">
+  <link href="{{asset('assets/css/apps/scrumboard.css')}}" rel="stylesheet" type="text/css">
+  <link href="{{asset('assets/css/apps/notes.css')}}" rel="stylesheet" type="text/css">
 
     <style>
       
@@ -159,6 +161,23 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff !important;
     background-color: #022e5a  !important;
     border-color: #1b55e2;
+}
+.col-md-8 {
+  right: 0px;
+}
+.connect-sorting{
+padding: 9px;
+}
+.modal-content .modal-footer [data-dismiss="modal"] {
+    background-color: #022e5a;
+
+}
+@media (max-width: 991px)
+html.sidebar-noneoverflow .main-container:not(.sidebar-closed) .sidebar-wrapper #compactSidebar, .main-container.sbar-open .sidebar-wrapper #compactSidebar {
+    left: 0;
+}
+.sidebar-closed #compactSidebar {
+  left: -150px;
 }
     </style>
     
